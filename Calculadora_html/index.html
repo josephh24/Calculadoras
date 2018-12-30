@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculadora</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="estilos.css">
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+        
+        
+</head>
+<body>
+
+	<div id="particles-js"></div>
+	
+    <header>
+		<div class="menu">
+			<div class="contenedor">
+				<div class="logo">Pagina movil</div>
+				
+			</div>
+		</div>
+	</header>    
+	
+	<br>	
+	<div class="principal contenedor">
+	   <article>           
+           <h2 class="texto">Calculadora</h2>
+           <p class="fecha">30 de Agosto del 2018</p>
+           <font color="##ffeeee">
+               <p>Ejemplo de una calculadora con html5, javaScript y css3.
+               Una pagina responsive para ser visualisada por cualquier dispositivo.</p>
+            </font>
+           
+           <form name="calculadora">
+               <input type="textfield" name="resp" value="">
+               <br>
+               <input type="button"value="1" onclick="document.calculadora.resp.value+='1'">
+               <input type="button"value="2" onclick="document.calculadora.resp.value+='2'">
+               <input type="button"value="3" onclick="document.calculadora.resp.value+='3'">
+               <input type="button"value="/" onclick="document.calculadora.resp.value+='/'">
+               <br>
+               <input type="button"value="4" onclick="document.calculadora.resp.value+='4'">
+               <input type="button"value="5" onclick="document.calculadora.resp.value+='5'">
+               <input type="button"value="6" onclick="document.calculadora.resp.value+='6'">
+               <input type="button"value="*" onclick="document.calculadora.resp.value+='*'">
+               <br>
+               <input type="button"value="7" onclick="document.calculadora.resp.value+='7'">
+               <input type="button"value="8" onclick="document.calculadora.resp.value+='8'">
+               <input type="button"value="9" onclick="document.calculadora.resp.value+='9'">
+               <input type="button"value="-" onclick="document.calculadora.resp.value+='-'">
+               <br>
+               <input type="button"value="0" onclick="document.calculadora.resp.value+='0'">
+               <input type="button"value="." onclick="document.calculadora.resp.value+='.'">
+               <input type="button"value="+" onclick="document.calculadora.resp.value+='+'">
+               <input type="button"value="=" onclick="document.calculadora.resp.value=eval(document.calculadora.resp.value)">
+               <br>
+               <input type="button"value="(" onclick="document.calculadora.resp.value+='('">
+               <input type="button"value="C" onclick="document.calculadora.resp.value=''">
+               <input type="button"value=")" onclick="document.calculadora.resp.value+=')'">
+           </form>
+           
+           
+	  
+           <div class="texto">
+               <h2>Diseñado por :</h2>
+               <br><p>Jose Pablo Sanchez Guillen</p><br>
+                        
+           </div>
+        </article>
+	</div>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="particles.js"></script>
+	<script src="particulas.js"></script>
+</body>
+</html>
