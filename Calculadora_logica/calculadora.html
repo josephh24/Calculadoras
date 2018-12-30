@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<meta charset="UTF-8">
+	<title>Calculadora</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="estilo.css">
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+        
+        
+</head>
+    <body>
+        
+        <div id="particles-js"></div>
+	
+    <header>
+		<div class="menu">
+			<div class="contenedor">
+				<div class="logo">Pagina movil</div>
+				
+			</div>
+		</div>
+	</header>    
+	
+	<br>	
+	<div class="principal contenedor">
+	   <article>           
+           <h2 class="texto">Calculadora</h2>
+           <p class="fecha">30 de Agosto del 2018</p>
+           <font color="##ffeeee">
+               <p>Ejemplo de una calculadora con html5, javaScript y css3.
+               Una pagina responsive para ser visualisada por cualquier dispositivo.</p>
+            </font>
+        <form name="f1"><br>
+            <input type="text" name="txtcaja" value="0">
+            <br>
+            
+            <input type="button" onClick="document.f1.txtcaja.value='0'" value="C">
+ 
+            <br>
+            <input type="button" onclick="document.f1.txtcaja.value+='7'" value="7">
+            <input type="button" onclick="document.f1.txtcaja.value+='8'" value="8">
+            <input type="button" onclick="document.f1.txtcaja.value+='9'" value="9">
+            <input type="button" onClick="document.f1.txtcaja.value+='/'" value="/">
+            
+            <br>
+            <input type="button" onclick="document.f1.txtcaja.value+='4'" value="4">
+            <input type="button" onclick="document.f1.txtcaja.value+='5'" value="5">
+            <input type="button" onclick="document.f1.txtcaja.value+='6'" value="6">
+            <input type="button" onClick="document.f1.txtcaja.value+='*'" value="*">
+            
+            <br>
+            <input type="button" onclick="document.f1.txtcaja.value+='1'" value="1">
+            <input type="button" onclick="document.f1.txtcaja.value+='2'" value="2">
+            <input type="button" onclick="document.f1.txtcaja.value+='3'" value="3">
+            <input type="button" onClick="document.f1.txtcaja.value+='-'" value="-">
+            
+            <br>
+            <input type="button" onclick="document.f1.txtcaja.value+='0'" value="0">
+            <input type="button" onClick="document.f1.txtcaja.value+='.'" value=".">
+            <input type="button" class="igual" onClick="calcular()" value="=">
+            <input type="button" onClick="document.f1.txtcaja.value+='+'" value="+">           
+            <br>
+        </form>
+           <div class="texto">
+               <h2>Diseñado por :</h2>
+               <br><p>Jose Pablo Sanchez Guillen</p><br>
+                        
+           </div>
+        </article>
+	</div>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="particles.js"></script>
+	<script src="particulas.js"></script>
+        
+        <script src="metodos.js"></script>
+    </body>
+</html>
